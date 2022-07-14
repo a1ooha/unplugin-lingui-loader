@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "vite --port 8080 --host --open",
+    "i18n:extract": "lingui extract --clean",
+    "i18n:compile": "lingui compile"
+  },
+  "dependencies": {
+    "@babel/preset-typescript": "^7.18.6",
+    "@lingui/react": "^3.14.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.3.0",
+    "usehooks-ts": "^2.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@iconify-json/carbon": "^1.1.6",
+    "@lingui/cli": "^3.14.0",
+    "@lingui/core": "^3.14.0",
+    "@lingui/macro": "^3.14.0",
+    "@types/react": "^17.0.47",
+    "@types/react-dom": "^17.0.17",
+    "@vitejs/plugin-react": "^1.3.2",
+    "babel-plugin-macros": "^3.1.0",
+    "typescript": "^4.7.4",
+    "unocss": "^0.44.1",
+    "unplugin-auto-import": "^0.9.3",
+    "vite": "^2.9.14",
+    "vite-plugin-pages": "^0.25.0"
+  }
+}

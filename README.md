@@ -19,11 +19,11 @@ npm i -D unplugin-lingui-loader
 
 ```ts
 // vite.config.ts
-import PoLoader from 'unplugin-lingui-loader/vite'
+import LinguiLoader from 'unplugin-lingui-loader/vite'
 
 export default defineConfig({
   plugins: [
-    PoLoader(),
+    LinguiLoader(),
   ],
 })
 ```
@@ -37,11 +37,11 @@ Example: [`playground/`](./playground/)
 
 ```ts
 // rollup.config.js
-import PoLoader from 'unplugin-lingui-loader/rollup'
+import LinguiLoader from 'unplugin-lingui-loader/rollup'
 
 export default {
   plugins: [
-    PoLoader(),
+    LinguiLoader(),
   ],
 }
 ```
@@ -102,10 +102,10 @@ module.exports = {
 ```ts
 // esbuild.config.js
 import { build } from 'esbuild'
-import PoLoader from 'unplugin-lingui-loader/esbuild'
+import LinguiLoader from 'unplugin-lingui-loader/esbuild'
 
 build({
-  plugins: [PoLoader()],
+  plugins: [LinguiLoader()],
 })
 ```
 

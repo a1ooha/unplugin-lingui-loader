@@ -6,6 +6,8 @@ It’s a good practice to use compiled message catalogs during development. Howe
 
 `unplugin-lingui-loader` is plugin for Vite, Rollup, Webpack, and more, which compiles messages on the fly!
 
+[Live Demo](https://unplugin-lingui-loader.vercel.app/)
+
 ## Install
 
 ```bash
